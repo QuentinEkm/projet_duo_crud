@@ -18,5 +18,6 @@ Route::get('/', [NavRoute::class,'home'])->name('home');
 Route::get('/blog', [NavRoute::class,'blog'])->name('blog');
 Route::get('/portfolio', [NavRoute::class,'portfolio'])->name('portfolio');
 Route::get('/contact', [NavRoute::class,'contact'])->name('contact');
+Route::get('/admin', [NavRoute::class,'admin']);
 
 

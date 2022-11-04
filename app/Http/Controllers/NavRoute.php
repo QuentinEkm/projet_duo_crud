@@ -22,4 +22,7 @@ class NavRoute extends Controller
     public function contact(){
         return view('pages.contact');
     }
+    public function admin(){
+        return view('pages.adminPerm');
+    }
 }

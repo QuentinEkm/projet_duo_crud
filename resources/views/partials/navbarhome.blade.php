@@ -7,7 +7,7 @@
 
                 <div class="navbar-header">
 
-                    <a href="/" class="site-title yellow-text">Business Perfect</a>
+                    <a href="{{ Route('home') }}" class="site-title yellow-text">Business Perfect</a>
 
                 </div><!-- /.navbar-header -->
 
