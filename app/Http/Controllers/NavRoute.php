@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Blog;
 use Illuminate\Http\Request;
 
 class NavRoute extends Controller
@@ -10,7 +11,8 @@ class NavRoute extends Controller
         return view('pages.home');
     }
     public function blog(){
-        return view('pages.blog');
+        $blog = Blog::all();
+        return view('pages.blog', compact("blog"));
     }
     public function portfolio(){
         return view('pages.portfolio');
