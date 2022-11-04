@@ -12,14 +12,17 @@ class NavRoute extends Controller
         return view('pages.home');
     }
     public function blog(){
-        $blog = Blog::all();
+        $blog = Blog::all()->random(4);
         return view('pages.blog', compact("blog"));
     }
     public function portfolio(){
-        $projet = Portfolio::all();
+        $projet = Portfolio::all()->random(15);
         return view('pages.portfolio', compact('projet'));
     }
     public function contact(){
         return view('pages.contact');
+    }
+    public function admin(){
+        return view('pages.adminPerm');
     }
 }
