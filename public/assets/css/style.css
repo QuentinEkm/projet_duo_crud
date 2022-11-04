@@ -1009,7 +1009,7 @@ blockquote {
 ================================================== */
 .hero {
   background: url(../img/main-pic.jpg) center no-repeat;
-  height: 100%;
+  height: 100vh;
   width: 100%;
   display: table;
   position: relative;
@@ -1017,7 +1017,7 @@ blockquote {
 }
 
 .hero-max-720 {
-  max-height: 720px;
+  max-height: 97vh;
 }
 
 .hero-about-us {
