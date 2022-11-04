@@ -13,7 +13,7 @@
                 </div>
 
                 <ol class="breadcrumb">
-                    <li><a href="index.html">Home</a></li>
+                    <li><a href="/">Home</a></li>
                     <li class="active">Blog</li>
                 </ol><!-- /.breadcrumb -->
 

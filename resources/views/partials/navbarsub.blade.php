@@ -7,7 +7,7 @@
 
                 <div class="navbar-header">
 
-                    <a href="index.html" class="site-title yellow-text">Business Perfect</a>
+                    <a href="/" class="site-title yellow-text">Business Perfect</a>
 
                 </div><!-- /.navbar-header -->
 
@@ -16,13 +16,13 @@
                         <li>
                             <a href="/">Home</a></li>
                         <li>
-                            <a href="/blog">Blog </a>
+                            <a href="{{ route ("blog") }}">Blog </a>
                         </li>
                         <li>
-                            <a href="/portfolio">Portfolio</a>
+                            <a href="{{ route ("portfolio") }}">Portfolio</a>
                         </li>
                         <li>
-                            <a href="/contact">Contact</a>
+                            <a href="{{ route ("contact") }}">Contact</a>
                         </li>
                     </ul><!-- /.navbar-nav -->
                 </div><!-- /.navbar-collapse -->
