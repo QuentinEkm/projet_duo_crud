@@ -41,12 +41,5 @@
 </body>
 
 </body>
-<script src="{{asset ("") }}"></script>
-<script src="{{asset ("") }}"></script>
-<script src="{{asset ("") }}"></script>
-<script src="{{asset ("") }}"></script>
-<script src="{{asset ("") }}"></script>
-<script src="{{asset ("") }}"></script>
-<script src="{{asset ("") }}"></script>
-<script src="{{asset ("") }}"></script>
+
 </html>
