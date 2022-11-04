@@ -11,7 +11,7 @@ return new class extends Migration
      *
      * @return void
      */
-    public function port()
+    public function up()
     {
         Schema::create('portfolio', function (Blueprint $table) {
             $table->id();

@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Portfolio;
 use Illuminate\Http\Request;
 
 class NavRoute extends Controller
@@ -13,7 +14,8 @@ class NavRoute extends Controller
         return view('pages.blog');
     }
     public function portfolio(){
-        return view('pages.portfolio');
+        $projet = Portfolio::all();
+        return view('pages.portfolio', compact('projet'));
     }
     public function contact(){
         return view('pages.contact');
